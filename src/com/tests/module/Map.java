@@ -1,4 +1,4 @@
-package tests.module;
+package com.tests.module;
 
 public class Map 
 {

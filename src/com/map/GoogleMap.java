@@ -1,4 +1,4 @@
-package map;
+package com.map;
 
 import android.location.Address;
 
