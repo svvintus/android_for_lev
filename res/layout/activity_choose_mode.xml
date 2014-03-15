@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ListView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
     
-
-</ListView>
+    <Button android:id="@+id/drive_mode_chooser"
+        	android:layout_width="match_parent" 
+        	android:layout_height="0dp"
+        	android:layout_weight="1"
+        	android:text="@string/drive_mode"
+        	android:onClick="chooseDriveMode"/>
+    
+    <Button android:id="@+id/passanger_mode_chooser"
+        	android:layout_width="match_parent"
+        	android:layout_height="0dp"
+        	android:layout_weight="1"
+        	android:text="@string/passanger_mode"
+        	android:onClick="choosePassengerMode"/>
+    
+</LinearLayout>

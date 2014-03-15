@@ -4,5 +4,9 @@
     <string name="app_name">TaxiForAll</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="drive_mode">Taxi</string>
+    <string name="passanger_mode">Passanger</string>
+    <string name="title_activity_map">Map</string>
+	<string name="find_on_map">Find address on map</string>
 
 </resources>
