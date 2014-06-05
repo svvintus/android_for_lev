@@ -22,6 +22,12 @@ public class ChooseMode extends Activity
 	}
 	
 	@Override
+	public void onStart()
+	{
+		super.onStart();
+	}
+	
+	@Override
 	protected void onCreate(Bundle savedInstanceState)
 	{
 		super.onCreate(savedInstanceState);
@@ -31,7 +37,7 @@ public class ChooseMode extends Activity
 	@Override
 	protected void onResume()
 	{
-		
+		super.onResume();
 	}
 
 }
